@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header{
+    height: 50px;
+    background-color: #1B1B32;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #F1BE32;
+}
+.title{
+    margin: 0 auto;
+    color: #F1BE32;
+    font-size: 20px;
+}
+.image{
+    width: 200px;
+    margin: 0 20px;
+}
+
+.bold{
+    font-weight: 800;
+}
+.medium{
+    font-weight: 500;
+}
+
+.tags span{
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 0 20px;
+    
+}
+.tags{
+    margin: 20px;
+}
+
+.form label{
+    /* display: flex;
+    flex-direction: column; */
+    display: block;
+    padding:0 20px;
+
+
+}
+
