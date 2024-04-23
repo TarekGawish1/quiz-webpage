@@ -20,7 +20,8 @@ header{
     font-size: 20px;
 }
 .image{
-    width: 200px;
+    width: max(100px, 18vw);
+    aspect-ratio:35/4;
     margin: 0 20px;
 }
 
@@ -41,12 +42,10 @@ header{
     margin: 20px;
 }
 
-.form label{
-    /* display: flex;
-    flex-direction: column; */
-    display: block;
-    padding:0 20px;
-
-
+h1,h2{
+    font-family:Verdana,sans-serif;
 }
 
+h2{
+    border-bottom:4px solid #dfdfe2;
+}
