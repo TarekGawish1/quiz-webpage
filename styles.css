@@ -51,7 +51,13 @@ nav {
   nav > ul {
     display: flex;
     justify-content: space-evenly;
+    list-style-type: none;
   }
+
+.nav-tags{
+    text-decoration: none;
+    color: aliceblue;
+}
 
 h1,h2{
     font-family:Verdana,sans-serif;
